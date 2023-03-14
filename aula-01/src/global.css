@@ -1,0 +1,29 @@
+:root {
+  --white: #FFFFFF;
+  --yellow: #FFC700;
+  --grey: rgba(255, 255, 255, 0.7);
+  --grey-6: rgba(255, 255, 255, 0.6);
+  --black: #040101;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+@media(max-width: 768px){
+  html {
+    font-size: 87.5%;
+  }
+}
