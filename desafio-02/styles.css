@@ -1,0 +1,63 @@
+:root {
+  --white: #EBF1FB;
+  --cyan: #5EEAD4;
+  --black: #0B0C0E;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: url('./img/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: var(--white);
+  font-family: Beth Ellen;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 7.5rem;
+}
+
+.title span {
+  color: var(--cyan);
+}
+
+.sub-title {
+  color: var(--white);
+  font-family: Spectral;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.content {
+  display: flex; 
+  gap: 0.5rem;
+}
+
+.content-btn a {
+  padding: 0.75rem 2rem;
+  font-family: Spectral;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+
+  &__more{
+    color: var(--white);
+  }
+
+  &__now {
+    text-decoration: none;
+    background: var(--cyan);
+    color: var(--black);
+  }
+}
